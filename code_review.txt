@@ -1,0 +1,8 @@
+One change I suggest is to use some kind of loop so the user does not have to restart the program each time they want to create or
+access another file. Another change I suggest is to check that the input from the user can be converted to an int after line 34 to
+prevent a NumberFormatException from being thrown. I also suggest checking after line 56 that the person’s name entered by the user
+does not contain any slash symbols as this will cause an exception to be thrown when the program tries to create a file with this name.
+Another suggestion I have is to check if the user input is a valid int before trying to convert it to an int on line 103. One final
+change I suggest is to make sure the file number the user inputted will not cause an ArrayIndexOutOfBoundsException before trying to
+get the file at that index on line 104. This code review went well. There were a lot of good things about this project and there were
+not too many problems that I could find.
